@@ -1,0 +1,13 @@
+LAB 6 LOGBOOK - manasdalavi - e26b07f0681
+SETUP: my working directory is nst
+T1 prediction: I think ls / will show about 4 items
+T1: /bin holds all the commands that we use in terminal to do things we want to.
+T1: /dev holds devices that perform a function that represents every piece of hardware connected to your computer.
+T1: / means path , ~ means home directory , . means current directory
+T1: the OS groups files by function and readeability
+T2 prediction: ./deploy will not execute because I do not posses the permissions to execute it.
+T2 prediction: appending after u-w will not work  because I dont have write permissions
+T2: -rw-r--r-- written in numbers is permissions for the file for owner/group/others
+./deploy failed at first because Owner did not have permission to execute 
+T2: the new policy needed chmod 744
+-rwxr--r--@ 1 manasdalavi  staff  36  8 Sep 13:30 deploy
